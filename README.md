@@ -1,6 +1,6 @@
 # npmtest-usage
 
-#### test coverage for  [usage (v0.7.1)](https://github.com/arunoda/node-usage)  [![npm package](https://img.shields.io/npm/v/npmtest-usage.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-usage) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-usage.svg)](https://travis-ci.org/npmtest/node-npmtest-usage)
+#### basic test coverage for  [usage (v0.7.1)](https://github.com/arunoda/node-usage)  [![npm package](https://img.shields.io/npm/v/npmtest-usage.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-usage) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-usage.svg)](https://travis-ci.org/npmtest/node-npmtest-usage)
 
 #### simple way to lookup linux process usage
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-usage/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-usage/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-usage/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-usage/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-usage/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-usage/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-usage/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-usage/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-usage/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-usage/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-usage/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-usage/build/coverage.html/index.html)
 
@@ -83,7 +83,8 @@
         "install": "node-gyp rebuild",
         "test": "mocha"
     },
-    "version": "0.7.1"
+    "version": "0.7.1",
+    "bin": {}
 }
 ```
 
